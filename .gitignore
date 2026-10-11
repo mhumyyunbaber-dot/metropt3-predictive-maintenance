@@ -1,0 +1,30 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw dataset and archives
+data/metropt+3+dataset.csv
+data/metropt+3+dataset/
+data/metropt+3+dataset.zip
+
+# Generated model artifacts
+models/*.joblib
+
+# Keep generated analysis outputs available for review
+# results/metrics/
+# results/figures/
